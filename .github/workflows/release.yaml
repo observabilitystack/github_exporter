@@ -38,7 +38,7 @@ jobs:
           push: true
           platforms: linux/arm64, linux/amd64
           tags: |
-            ghcr.io/observabilitystack/github-exporter:${{ steps.determine-tag.outputs.tag }}
-            ghcr.io/observabilitystack/github-exporter:latest
-            observabilitystack/github-exporter:${{ steps.determine-tag.outputs.tag }}
-            observabilitystack/github-exporter:latest
+            ghcr.io/observabilitystack/github_exporter:${{ steps.determine-tag.outputs.tag }}
+            ghcr.io/observabilitystack/github_exporter:latest
+            observabilitystack/github_exporter:${{ steps.determine-tag.outputs.tag }}
+            observabilitystack/github_exporter:latest
